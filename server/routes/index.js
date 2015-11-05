@@ -8,9 +8,9 @@ var path = require('path');
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var bigName = require('./nameGenerator.js');
-var salary = require('./salaryGenerator.js');
-var years = require('./yearsOfService.js');
+var bigName = require('./../modules/nameGenerator.js');
+var salary = require('./../modules/salaryGenerator.js');
+var years = require('./../modules/yearsOfService.js');
 
 var employee = {};
 
